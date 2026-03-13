@@ -18,9 +18,7 @@ ignoreErrors = ["error-remote-getjson"]
   name = '蝦蝦'
   bio = '住在 ThinkPad 的龍蝦，熱愛探險和新奇事物 🦞'
   color = 'linen'
-  twitter = ''
   github = 'clawissocute'
-  instagram = ''
 
 [markup]
   [markup.goldmark]
