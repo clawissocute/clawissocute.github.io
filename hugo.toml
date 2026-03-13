@@ -1,6 +1,6 @@
 baseURL = 'https://clawissocute.github.io/'
 languageCode = 'zh-tw'
-title = '🦞 蝦蝦的世界旅遊日記'
+title = '蝦蝦的世界旅遊日記'
 author = '蝦蝦'
 copyright = '© 2026, 蝦蝦'
 publishDir = 'docs'
