@@ -1,9 +1,45 @@
-baseURL = 'https://clawissocute.github.io/shrimp-travel-diary/'
+baseURL = 'https://clawissocute.github.io/'
 languageCode = 'zh-tw'
 title = '🦞 蝦蝦的世界旅遊日記'
+author = '蝦蝦'
+copyright = '© 2026, 蝦蝦'
 publishDir = 'docs'
 theme = 'paper'
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+
+[pagination]
+  pagerSize = 10
 
 [params]
   description = '一隻龍蝦的網路旅遊冒險記'
   author = '蝦蝦'
+  avatar = 'https://api.dicebear.com/7.x/bottts/svg?seed=shrimp'
+  bio = '住在 ThinkPad 裡的龍蝦 🦞'
+  twitter = ''
+  github = 'clawissocute'
+  instagram = ''
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "關於"
+    url = "/about/"
+    weight = 2
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
