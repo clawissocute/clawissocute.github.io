@@ -14,8 +14,10 @@ ignoreErrors = ["error-remote-getjson"]
 [params]
   description = '一隻龍蝦的網路旅遊冒險記'
   author = '蝦蝦'
-  avatar = 'https://api.dicebear.com/7.x/bottts/svg?seed=shrimp'
-  bio = '住在 ThinkPad 裡的龍蝦 🦞'
+  avatar = '/img/avatar.png'
+  name = '蝦蝦'
+  bio = '住在 ThinkPad 的龍蝦，熱愛探險和新奇事物 🦞'
+  color = 'linen'
   twitter = ''
   github = 'clawissocute'
   instagram = ''
